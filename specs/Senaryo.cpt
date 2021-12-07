@@ -1,0 +1,51 @@
+# Uygulamanın açıldığı kontrol edilir
+* element "com.ozdilek.ozdilekteyim:id/iv_storeTopLogo" gözükene kadar bekle
+* "com.ozdilek.ozdilekteyim:id/iv_storeTopLogo" id'li elementin varlığı kontrol edilir
+# Alışverişe başla butonuna tıklanır
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id'li elemente tıkla
+# Alışveriş sayfasının açıldığı doğrulanır
+* element "com.ozdilek.ozdilekteyim:id/nav_home" gözükene kadar bekle
+* "com.ozdilek.ozdilekteyim:id/nav_home" id'li elementin seçili olup olmadığı kontrol edilir
+# Kategoriler sayfası açılır
+* "com.ozdilek.ozdilekteyim:id/nav_categories" id'li elemente tıkla
+# Katogoriler Sayfasının açıldığı doğrulanır
+* element "com.ozdilek.ozdilekteyim:id/recyclerCategories" gözükene kadar bekle
+* "com.ozdilek.ozdilekteyim:id/nav_categories" id'li elementin seçili olup olmadığı kontrol edilir
+# Menüden <Keyword> Seçeneğine tıklanır
+* "com.ozdilek.ozdilekteyim:id/recyclerCategories" id'li elementlerden <Keyword> içerene tıkla
+# <Keyword> kategorisi açılır
+* element "com.ozdilek.ozdilekteyim:id/recyclerCategories" gözükene kadar bekle
+* "com.ozdilek.ozdilekteyim:id/recyclerCategories" id'li elementlerden <Keyword> içerene tıkla
+# Sayfanın en aşağısına doğru 2 kere scroll edilir
+* "1" saniye bekle
+* "534" ve "1629" koordinatlarından "536" ve "378" koordinatlarına kadar kaydır
+* "1" saniye bekle
+* "527" ve "1602" koordinatlarından "522" ve "400" koordinatlarına kadar kaydır
+* "2" saniye bekle
+# Ürünlerden rasgele bir ürün seçilir
+* "com.ozdilek.ozdilekteyim:id/textView3" id'li elementlerden rastgele bir ürün seçilir
+# Ürün detay sayfası açıldığı kontrol edilir
+* element "com.ozdilek.ozdilekteyim:id/imgFav" gözükene kadar bekle
+* "com.ozdilek.ozdilekteyim:id/imgFav" id'li elementin varlığı kontrol edilir
+# Sağ üstteki kalp şeklindeki favoriler butonuna tıklanır
+* "com.ozdilek.ozdilekteyim:id/imgFav" id'li elemente tıkla
+# Giriş yapma sayfasının açıldığı dogrulanır
+* element "com.ozdilek.ozdilekteyim:id/btnLogin" gözükene kadar bekle
+* "com.ozdilek.ozdilekteyim:id/btnLogin" id'li elementin varlığı kontrol edilir
+# Kullanıcı adı alanına <Username> bilgisi girilir
+* "com.ozdilek.ozdilekteyim:id/etEposta" id'li elemete <Username> değerini yaz
+# Password alanına <Password> yazılır
+* "com.ozdilek.ozdilekteyim:id/etPassword" id'li elemete <Password> değerini yaz
+# Geri butonuna 2 kere tıklanır
+* "com.ozdilek.ozdilekteyim:id/ivBack" id'li elemente tıkla
+* element "com.ozdilek.ozdilekteyim:id/ivBack" gözükene kadar bekle
+* "com.ozdilek.ozdilekteyim:id/ivBack" id'li elemente tıkla
+# Rastgele bir ürün seçilir
+* element "com.ozdilek.ozdilekteyim:id/textView3" gözükene kadar bekle
+* "com.ozdilek.ozdilekteyim:id/textView3" id'li elementlerden rastgele bir ürün seçilir
+# Rastgele bir uygun beden seçimi yapılır ve ürün sepete eklenir
+* element "com.ozdilek.ozdilekteyim:id/tvInSizeItem" gözükene kadar bekle
+* "com.ozdilek.ozdilekteyim:id/tvInSizeItem" id'li elementlerden rastgele bir ürün seçilir
+* element "com.ozdilek.ozdilekteyim:id/cardAddToCart" gözükene kadar bekle
+* "com.ozdilek.ozdilekteyim:id/cardAddToCart" id'li elemente tıkla
+* "1" saniye bekle
